@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Function to change elements
+      function changeElements() {
+        // Example changes
+        document.querySelector('.text-xl.font-bold.text-left.text-black').textContent = 'New Text';
+        document.querySelector('.bg-white').style.backgroundColor = '#f0f0f0';
+        document.querySelector('.text-white').classList.add('text-gray-900');
+      }
+
+      // Call the function after the page has loaded
+      document.addEventListener('DOMContentLoaded', function() {
+        changeElements(); // Call the function
+      });
+    </script>
+  </head>
+  <body>
+    <div class="w-[1920px] h-[1080px] relative overflow-hidden bg-white">
+      <div class="w-[1920px] h-[183px] absolute left-[-1px] top-[896px] bg-[#1e3932]"></div>
+      <img
+        src="rewards-logo-1.png"
+        class="w-[174px] h-[151px] absolute left-[352px] top-[912px] object-cover"
+      />
+      <div
+        class="flex flex-col justify-start items-start absolute left-[-10px] top-[-10px] gap-2.5 p-2.5"
+      >
+        <div class="flex-grow-0 flex-shrink-0 w-[1920px] h-[154px] bg-white"></div>
+      </div>
+      <div
+        class="flex flex-col justify-start items-start absolute left-[-10px] top-36 gap-2.5 p-2.5"
+      >
+        <div
+          class="flex-grow-0 flex-shrink-0 w-[1920px] h-[641px] bg-[#bdd6ec] border-t-2 border-r-0 border-b-0 border-l-0 border-black"
+        ></div>
+      </div>
+      <div class="w-[1784px] h-[575px] absolute left-[67px] top-[188px] bg-[#dbe6e8]"></div>
+      <img
+        src="2024_5_say_thanks_top_drink2-1.png"
+        class="w-[300px] h-[435px] absolute left-[689px] top-[292px] object-cover"
+      /><img
+        src="2024_5_say_thanks_top_drink3-1.png"
+        class="w-[327px] h-[435px] absolute left-[1120px] top-[292px] object-cover"
+      /><img
+        src="2024_5_say_thanks_top_drink1-1.png"
+        class="w-[340px] h-[471px] absolute left-[894px] top-[292px] object-cover"
+      /><img
+        src="pkr1qh_20240509090347488-1.png"
+        class="w-[140px] h-24 absolute left-[1509px] top-[188px] object-cover"
+      /><img
+        src="mn0ech_20220711153123340-1.png"
+        class="w-[140px] h-24 absolute left-[1509px] top-[300px] object-cover"
+      /><img
+        src="2024_5_say_thanks_top_logo-1.png"
+        class="w-[437px] h-[154px] absolute left-[135px] top-[271px] object-cover"
+      />
+      <p class="absolute left-[1109px] top-[23px] text-xl font-medium text-left text-black">
+        Sign In
+      </p>
+      <div class="w-[343px] h-[116px] absolute left-[272px] top-[-37px] overflow-hidden"></div>
+      <p class="absolute left-[1219px] top-[23px] text-xl font-medium text-left text-black">
+        My Starbucks
+      </p>
+      <p class="absolute left-[1193px] top-[23px] text-xl font-medium text-left text-black">|</p>
+      <p class="absolute left-[1370px] top-[23px] text-xl font-medium text-left text-black">|</p>
+      <p class="absolute left-[1403px] top-[23px] text-xl font-medium text-left text-black">
+        Customer Service &#x26; Ideas
+      </p>
+      <p class="absolute left-[1676px] top-[23px] text-xl font-medium text-left text-black">|</p>
+      <p class="absolute left-[1709px] top-[23px] text-xl font-medium text-left text-black">
+        Find a Store
+      </p>
+      <img
+        src="icon_magnifier_black-1.png"
+        class="w-[33px] h-[35px] absolute left-[1849px] top-5 object-cover"
+      />
+      <p class="absolute left-[597px] top-[88px] text-xl font-medium text-left text-black">
+        COFFEE
+      </p>
+      <p class="absolute left-[714px] top-[88px] text-xl font-medium text-left text-black">MENU</p>
+      <p class="absolute left-[813px] top-[88px] text-xl font-medium text-left text-black">STORE</p>
+      <p class="absolute left-[918px] top-[88px] text-xl font-medium text-left text-black">
+        RESPONSIBILITY
+      </p>
+      <p class="absolute left-[1109px] top-[88px] text-xl font-medium text-left text-black">
+        STARBUCKS REWARDS
+      </p>
+      <p class="absolute left-[1361px] top-[88px] text-xl font-medium text-left text-black">
+        CORPORATE SALES
+      </p>
+      <p class="absolute left-[1580px] top-[88px] text-xl font-medium text-left text-black">
+        WHAT’S NEW
+      </p>
+      <img
+        src="387101726_715391077287130_3766725430228832457_n-1.jpeg"
+        class="w-[113px] h-[113px] absolute left-[299px] top-[19px] object-cover"
+      />
+      <div
+        class="flex flex-col justify-start items-start absolute left-[-10px] top-[785px] gap-2.5 p-2.5"
+      >
+        <div class="flex-grow-0 flex-shrink-0 w-[1920px] h-[102px] bg-black"></div>
+      </div>
+      <div
+        class="flex flex-col justify-start items-start absolute left-[980px] top-[785px] gap-2.5 p-2.5"
+      >
+        <div class="flex-grow-0 flex-shrink-0 w-[930px] h-[102px] bg-white"></div>
+      </div>
+      <p class="absolute left-[399px] top-[831px] text-xl font-bold text-left text-white">
+        시스템 개선 및 서비스 점검 안내
+      </p>
+      <p class="absolute left-[272px] top-[824px] text-3xl font-bold text-left text-white">
+        공지사항
+      </p>
+      <svg
+        width="61"
+        height="61"
+        viewBox="0 0 61 61"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="absolute left-[878px] top-[815px]"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <circle cx="30.5" cy="30.5" r="30" fill="white" stroke="black"></circle></svg
+      ><svg
+        width="55"
+        height="55"
+        viewBox="0 0 55 55"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="absolute left-[881px] top-[818px]"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <circle cx="27.5" cy="27.5" r="27" fill="black" stroke="black"></circle>
+      </svg>
+      <div class="flex justify-start items-start absolute left-[897px] top-[815px] gap-2.5 p-2.5">
+        <svg
+          width="5"
+          height="40"
+          viewBox="0 0 5 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="flex-grow-0 flex-shrink-0"
+          preserveAspectRatio="none"
+        >
+          <line x1="2.5" x2="2.5" y2="40" stroke="white" stroke-width="5"></line>
+        </svg>
+      </div>
+      <div
+        class="flex flex-col justify-start items-start absolute left-[879px] top-[837px] gap-2.5 p-2.5"
+      >
+        <svg
+          width="40"
+          height="5"
+          viewBox="0 0 40 5"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="flex-grow-0 flex-shrink-0"
+          preserveAspectRatio="none"
+        >
+          <line y1="2.5" x2="40" y2="2.5" stroke="white" stroke-width="5"></line>
+        </svg>
+      </div>
+      <p class="absolute left-[1243px] top-[824px] text-3xl font-bold text-left text-black">
+        스타벅스 프로모션
+      </p>
+      <svg
+        width="61"
+        height="61"
+        viewBox="0 0 61 61"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="absolute left-[1648.5px] top-[813.5px]"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <circle cx="30.5" cy="30.5" r="29.5" fill="white" stroke="black" stroke-width="2"></circle>
+      </svg>
+      <div class="flex justify-start items-start absolute left-[1650px] top-[830px] gap-2.5 p-2.5">
+        <svg
+          width="22"
+          height="22"
+          viewBox="0 0 22 22"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="flex-grow-0 flex-shrink-0"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <line x1="0.353553" y1="0.646447" x2="20.8117" y2="21.1046" stroke="black"></line>
+        </svg>
+      </div>
+      <div
+        class="flex justify-start items-start absolute left-[1670.54px] top-[830.08px] gap-2.5 p-2.5"
+      >
+        <svg
+          width="22"
+          height="22"
+          viewBox="0 0 22 22"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="flex-grow-0 flex-shrink-0"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <line x1="1.18832" y1="21.1883" x2="21.6465" y2="0.730171" stroke="black"></line>
+        </svg>
+      </div>
+      <p class="absolute left-[597px] top-[913px] text-4xl font-bold text-left text-white">
+        스타벅스만의 특별한 혜택, 스타벅스 리워드
+      </p>
+      <p class="absolute left-[597px] top-[967px] text-[28px] font-bold text-left text-white">
+        스타벅스 회원이세요?
+      </p>
+      <p class="absolute left-[857px] top-[967px] text-[26px] font-bold text-left text-white">
+        로그인을 통해 나만의 리워드를 확인해보세요.
+      </p>
+      <p class="absolute left-[597px] top-[1006px] text-[28px] font-bold text-left text-white">
+        스타벅스 회원이 아니세요?
+      </p>
+      <p class="absolute left-[918px] top-[1009px] text-[26px] font-bold text-left text-white">
+        가입을 통해 리워드 혜택을 즐기세요.
+      </p>
+      <div
+        class="w-[129px] h-[54px] absolute left-[1421px] top-[968px] rounded-[10px] bg-[#00704a]"
+      ></div>
+      <div
+        class="w-[129px] h-[54px] absolute left-[1580.5px] top-[967.5px] rounded-[10px] bg-[#00704a] border-2 border-white"
+      ></div>
+      <p class="absolute left-[1450px] top-[981px] text-xl font-bold text-left text-white">
+        회원가입
+      </p>
+      <p class="absolute left-[1619px] top-[981px] text-xl font-bold text-left text-white">
+        로그인
+      </p>
+    </div>
+  </body>
+</html>
